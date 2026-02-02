@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import heroImage from '@/assets/hero-bar.jpg';
 
-const WHATSAPP_NUMBER = '5511999999999';
+const WHATSAPP_NUMBER = '551434132411';
 const WHATSAPP_MESSAGE = 'Olá! Gostaria de fazer uma reserva no Chaplin.';
 
 const Hero = () => {
