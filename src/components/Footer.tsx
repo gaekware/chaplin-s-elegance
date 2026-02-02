@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Instagram, Facebook } from 'lucide-react';
 import { useInView } from '@/hooks/useInView';
+import gaekwareLogo from '@/assets/gaekware.png';
 
 const Footer = () => {
   const { ref, isInView } = useInView({ threshold: 0.3 });
@@ -97,7 +98,7 @@ const Footer = () => {
               Desenvolvido por
             </p>
             <img
-              src="/src/assets/gaekware.png"
+              src={gaekwareLogo}
               alt="GaekWare"
               className="h-20 opacity-50 hover:opacity-100 transition-opacity duration-300"
             />
