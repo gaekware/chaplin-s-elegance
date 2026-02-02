@@ -60,8 +60,8 @@ const PrivateEvents = () => {
             transition={{ duration: 1, delay: 0.7 }}
             className="text-body mt-8"
           >
-            Para ocasiões especiais que merecem um cenário à altura. Nossa sala 
-            privativa oferece o ambiente perfeito para jantares íntimos, 
+            Para ocasiões especiais que merecem um cenário à altura. Estamos
+            prontos para proporcionar o ambiente perfeito para jantares íntimos,
             celebrações exclusivas e encontros corporativos de alto nível.
           </motion.p>
 

@@ -6,7 +6,7 @@ const Footer = () => {
   const { ref, isInView } = useInView({ threshold: 0.3 });
 
   return (
-    <footer ref={ref} className="bg-background py-20 px-6 md:px-12 border-t border-border/20">
+    <footer ref={ref} className="bg-background py-20 pb-5 px-6 md:px-12 border-t border-border/20">
       <div className="mx-auto max-w-6xl">
         <div className="grid gap-12 md:grid-cols-3 text-center md:text-left">
           {/* Logo */}
@@ -33,9 +33,9 @@ const Footer = () => {
                 Endereço
               </h4>
               <p className="text-sm text-foreground/80">
-                Rua Augusta, 1234
+                Av. República, 129
                 <br />
-                Jardins, São Paulo - SP
+                Marília, SP
               </p>
             </div>
             <div>
@@ -43,11 +43,9 @@ const Footer = () => {
                 Horários
               </h4>
               <p className="text-sm text-foreground/80">
-                Ter - Qui: 18h às 00h
+                Terça-feira a Sexta-feira das 17h às 00h
                 <br />
-                Sex - Sáb: 18h às 02h
-                <br />
-                Dom: 17h às 23h
+                Sábado e Domingo das 11h às 00h
               </p>
             </div>
           </motion.div>
@@ -64,7 +62,7 @@ const Footer = () => {
             </h4>
             <div className="flex gap-4">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/chaplin_marilia/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground/70 hover:text-foreground transition-colors duration-300"
@@ -72,7 +70,7 @@ const Footer = () => {
                 <Instagram size={24} />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/Chaplin.Marilia/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground/70 hover:text-foreground transition-colors duration-300"
@@ -93,6 +91,17 @@ const Footer = () => {
           <p className="text-xs text-muted-foreground tracking-wide">
             © {new Date().getFullYear()} Chaplin Bar & Restaurante. Todos os direitos reservados.
           </p>
+
+          <div className="flex flex-col items-center justify-center mt-6 gap-2">
+            <p className="text-[10px] uppercase tracking-widest text-muted-foreground/60">
+              Desenvolvido por
+            </p>
+            <img
+              src="/src/assets/gaekware.png"
+              alt="GaekWare"
+              className="h-20 opacity-50 hover:opacity-100 transition-opacity duration-300"
+            />
+          </div>
         </motion.div>
       </div>
     </footer>

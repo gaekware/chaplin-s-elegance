@@ -45,9 +45,9 @@ const About = () => {
               transition={{ duration: 1, delay: 0.4, ease: 'easeOut' }}
               className="text-body"
             >
-              Inspirado na elegância atemporal do cinema clássico, o Chaplin nasceu 
-              da paixão por criar experiências memoráveis. Cada detalhe foi 
-              cuidadosamente pensado para transportar você a uma era de sofisticação 
+              Inspirado na elegância atemporal do cinema clássico, o Chaplin nasceu
+              da paixão por criar experiências memoráveis. Cada detalhe foi
+              cuidadosamente pensado para transportar você a uma era de sofisticação
               e mistério.
             </motion.p>
 
@@ -57,8 +57,8 @@ const About = () => {
               transition={{ duration: 1, delay: 0.5, ease: 'easeOut' }}
               className="text-body"
             >
-              Aqui, a arte da hospitalidade encontra a excelência em gastronomia 
-              e coquetelaria. Um refúgio para os que apreciam os prazeres refinados 
+              Aqui, a arte da hospitalidade encontra a excelência em gastronomia
+              e coquetelaria. Um refúgio para os que apreciam os prazeres refinados
               da vida, envoltos em uma atmosfera que só o Chaplin pode oferecer.
             </motion.p>
           </div>
